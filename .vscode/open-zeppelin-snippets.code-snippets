@@ -4,5 +4,12 @@
         "prefix": "importi20",
         "body": "import {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
         "description": "Imports IERC20 contract from @openzeppelin"
+    },
+
+    "Import Reentrancy Guard": {
+        "scope": "solidity",
+        "prefix": "importRG",
+        "body": "import {ReentrancyGuard} from \"@openzeppelin/contracts/utils/ReentrancyGuard.sol\";",
+        "description": "Imports Reentrancy Guard contract from @openzeppelin"
     }
 }
