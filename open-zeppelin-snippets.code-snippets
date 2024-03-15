@@ -1,0 +1,8 @@
+{
+    "Import IERC20": {
+        "scope": "solidity",
+        "prefix": "importi20",
+        "body": "import {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
+        "description": "Imports IERC20 contract from @openzeppelin"
+    }
+}
