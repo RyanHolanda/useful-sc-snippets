@@ -11,5 +11,19 @@
         "prefix": "importRG",
         "body": "import {ReentrancyGuard} from \"@openzeppelin/contracts/utils/ReentrancyGuard.sol\";",
         "description": "Imports Reentrancy Guard contract from @openzeppelin"
+    },
+
+    "Import Enumerable Set": {
+        "scope": "solidity",
+        "prefix": "importES",
+        "body": "import {EnumerableSet} from \"@openzeppelin/contracts/utils/structs/EnumerableSet.sol\";",
+        "description": "Imports Enumerable Set Library from @openzeppelin"
+    },
+
+    "Import Enumerable Map": {
+        "scope": "solidity",
+        "prefix": "importEM",
+        "body": "import {EnumerableMap} from \"@openzeppelin/contracts/utils/structs/EnumerableMap.sol\";",
+        "description": "Imports Enumerable Map Library from @openzeppelin"
     }
 }
