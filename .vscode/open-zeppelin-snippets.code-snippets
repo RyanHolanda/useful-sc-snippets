@@ -32,5 +32,12 @@
         "prefix": "imports20",
         "body": "import {SafeERC20} from \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";",
         "description": "Imports SafeERC20 library from @openzeppelin"
+    },
+
+    "Import String utils": {
+        "scope": "solidity",
+        "prefix": "importsu",
+        "body": "import {Strings} from \"@openzeppelin/contracts/utils/Strings.sol\";",
+        "description": "Imports String utils library from @openzeppelin"
     }
 }
