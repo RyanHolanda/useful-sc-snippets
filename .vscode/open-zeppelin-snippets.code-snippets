@@ -39,5 +39,12 @@
         "prefix": "importsu",
         "body": "import {Strings} from \"@openzeppelin/contracts/utils/Strings.sol\";",
         "description": "Imports String utils library from @openzeppelin"
+    },
+
+    "Import Ownable": {
+        "scope": "solidity",
+        "prefix": "importo",
+        "body": "import {Ownable} from \"@openzeppelin/contracts/access/Ownable.sol\";",
+        "description": "Imports Ownable contract from @openzeppelin"
     }
 }
