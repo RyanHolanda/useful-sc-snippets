@@ -4,5 +4,12 @@
         "prefix": "importvrf",
         "body": "import {VRFConsumerBaseV2} from \"@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol\";",
         "description": "Import VRFConsumerBaseV2 from @chainlink"
+    },
+
+    "Import VRF Coordinator Interface": {
+        "scope": "solidity",
+        "prefix": "importvrfci",
+        "body": "import {VRFCoordinatorV2Interface} from \"@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol\";",
+        "description": "Import VRF Coordinator Interface from @chainlink"
     }
  }
