@@ -1,0 +1,8 @@
+ {
+    "Import VRFConsumerBaseV2": {
+        "scope": "solidity",
+        "prefix": "importvrf",
+        "body": "import {VRFConsumerBaseV2} from \"@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol\";",
+        "description": "Import VRFConsumerBaseV2 from @chainlink"
+    }
+ }
