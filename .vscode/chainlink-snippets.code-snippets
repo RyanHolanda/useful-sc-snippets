@@ -11,5 +11,12 @@
         "prefix": "importvrfci",
         "body": "import {VRFCoordinatorV2Interface} from \"@chainlink/contracts/src/v0.8/vrf/interfaces/VRFCoordinatorV2Interface.sol\";",
         "description": "Import VRF Coordinator Interface from @chainlink"
+    },
+
+    "Import VRF Coordinator Mock": {
+        "scope": "solidity",
+        "prefix": "importvrfcm",
+        "body": "import {VRFCoordinatorV2Mock} from \"@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2Mock.sol\";",
+        "description": "Import VRF Coordinator Mock from @chainlink"
     }
  }
